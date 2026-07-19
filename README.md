@@ -2,11 +2,11 @@
 
 A static standalone application for compressing Unreal Development Kit (UDK) package files (`.upk` and `.udk`).
 
-This tool provides a simple WPF interface for compressing packages using `RlUpk.Core` by **Martinii89**.
+This tool provides a simple WPF interface for compressing packages using [RL-UPKSuite.Core](https://github.com/Martinii89/RL-UPKSuite/tree/master/Core) by **Martinii89**.
 
 ## Usage
-1. Download the latest executable from https://github.com/NathanKirby/UDK-Compressor/releases
-2. Launch **UDK Compressor.exe**.
+1. Download the latest executable from [releases](https://github.com/NathanKirby/UDK-Compressor/releases).
+2. Launch **UDK Compressor**.
 3. Click the **Choose UDK** button.
 4. Choose the `.upk` or `.udk` file you wish to compress.
 5. Click **Compress**.
