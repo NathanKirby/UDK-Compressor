@@ -4,6 +4,9 @@ A static standalone application for compressing Unreal Development Kit (UDK) pac
 
 This tool provides a simple WPF interface for compressing packages using [RL-UPKSuite.Core](https://github.com/Martinii89/RL-UPKSuite/tree/master/Core) by **Martinii89**.
 
+## Preview
+<img width="524" height="100" alt="UDK_Compressor_Preview" src="https://github.com/user-attachments/assets/9bc327dd-3034-4f05-8e88-34f5f774fe09" />
+
 ## Usage
 1. Download the latest executable from [releases](https://github.com/NathanKirby/UDK-Compressor/releases).
 2. Launch **UDK Compressor**.
@@ -24,28 +27,23 @@ MyMap_compressed.udk
 
 The original package is **not** compressed or deleted.
 
-## Requirements
+## Compression Results
+| Map | Before Compression | After Compression | Reduction |
+|------|-------------------|------------------|-----------|
+| Dribble Challenge E.Leclerc x Vitality | 600.3 MB | 233.5 MB | 61.10% |
+| Lethamyr's Ice Rings | 320.6 MB | 161.7 MB | 49.53% |
+| Nytro Hide n Seek | 712.7 MB | 234.3 MB | 67.13% |
 
-* Windows 10 or later
-* 64-bit operating system
+## Q&A
 
-The standalone release includes the .NET runtime and requires no additional installation.
+### Q: Can I still open and edit my project after compression?
+A: Yes, but it's possible you'll have some crashes or visual issues until you save it again. This can be avoided by not compressing the version you're editing.
 
-## Credits
+### Q: Will my map still be playable?
+A: Yes, compression does not affect playability.
 
-Compression functionality is powered by **RlUpk.Core**.
+### Q: When should I compress my projects?
+A: Compress your project before uploading or sending to others.
 
-Additional open-source libraries include:
-
-* Syroot.BinaryData
-* LazyCache
-* Microsoft.Extensions.DependencyInjection
-* Microsoft.Extensions.FileSystemGlobbing
-
-See the application's **Licenses** section for third-party license information.
-
-## License
-
-This project is licensed under the license included in this repository.
-
-Third-party components are licensed under their respective licenses, which are included with the application.
+### Q: How long does compression take?
+A: Compression only takes a few seconds. The app may say that it is not responding, but give it a moment and it will finish.
