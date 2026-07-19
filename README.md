@@ -47,3 +47,6 @@ A: Compress your project before uploading or sending to others.
 
 ### Q: How long does compression take?
 A: Compression only takes a few seconds. The app may say that it is not responding, but give it a moment and it will finish.
+
+## Disclaimer
+This project was thrown together very quickly without any care given to syntax, documentation, readability, etc. If you're planning on cloning this repo, just know that it needs some work to be presentable.
