@@ -13,14 +13,14 @@ This tool provides a simple WPF interface for compressing packages using [RL-UPK
 3. Click the **Choose UDK** button.
 4. Choose the `.upk` or `.udk` file you wish to compress.
 5. Click **Compress**.
-6. The compressed package will be written to the same folder as the original file using the naming format:
+6. The compressed package will be written to the same folder as the original file using this naming format:
 
 Original:
 ```
 MyMap.udk
 ```
 
-Compressed result:
+Compressed:
 ```
 MyMap_compressed.udk
 ```
@@ -36,8 +36,11 @@ The original package is **not** compressed or deleted.
 
 ## Q&A
 
+### Q: Why is compressing my project important?
+A: Compressing you project is important because it makes it easier and faster to share. Smaller files are especially useful for users with slower internet connections and help avoid file size limits on platforms like Discord.
+
 ### Q: Can I still open and edit my project after compression?
-A: Yes, but it's possible you'll have some crashes or visual issues until you save it again. This can be avoided by not compressing the version you're editing.
+A: Yes, but it's possible that you'll have some crashes or visual issues until you save it again. This can be avoided by not compressing the version you're editing.
 
 ### Q: Will my map still be playable?
 A: Yes, compression does not affect playability.
