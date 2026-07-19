@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <PackageId>mvn.RlUpk.Core</PackageId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Description>The Core library for the RL-UPKSuite toolset, which provides functionality for unpacking, analyzing, and manipulating Rocket League UPK (Unreal Package) files.</Description>
+    <Version>1.0.2</Version>
+    <Authors>Martinn</Authors>
+    <Copyright>Copyright (c) Martinn 2025.</Copyright>
+    <PackageProjectUrl>https://github.com/Martinii89/RL-UPKSuite</PackageProjectUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LazyCache"/>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions"/>
+    <PackageReference Include="Microsoft.Extensions.FileSystemGlobbing"/>
+    <PackageReference Include="Syroot.BinaryData"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="keys.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+</Project>

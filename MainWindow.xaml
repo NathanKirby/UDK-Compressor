@@ -1,0 +1,22 @@
+﻿<Window x:Class="UDKCompressionWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UDKCompressionWPF"
+        mc:Ignorable="d"
+        Icon="/Icon/kirkode_icon.ico"
+        Title="UDK Compressor"
+        Height="110" 
+        Width="540" 
+        ResizeMode="NoResize">
+    <Grid>
+        <Button x:Name="CompressButton" Content="Compress" Click="CompressClick" IsEnabled="false" HorizontalAlignment="Left" Margin="397,10,0,0" VerticalAlignment="Top" Height="30" Width="110"/>
+        <Button x:Name="ChooseButton" Content="Choose UDK" Click="ChooseClick" HorizontalAlignment="Left" Margin="282,10,0,0" VerticalAlignment="Top" Height="30" Width="110"/>
+        <TextBlock x:Name="FilePathText" HorizontalAlignment="Left" Margin="10,13,0,0" TextWrapping="NoWrap" TextTrimming="CharacterEllipsis" Text="No file selected." VerticalAlignment="Top" Width="267" Height="30" FontWeight="Bold" FontSize="16" Cursor="IBeam"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,48,0,0" TextWrapping="Wrap" Text="Credit to" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="61,48,0,0" TextWrapping="Wrap" Text="Martinn" Foreground="Blue" Cursor="Hand" VerticalAlignment="Top" TextDecorations="Underline" MouseLeftButtonDown="MartinnClick"/>
+        <TextBlock HorizontalAlignment="Left" Margin="108,48,0,0" TextWrapping="Wrap" Text="for the compression algorithm." VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="276,48,0,0" TextWrapping="Wrap" Text="(License)" Foreground="Blue" Cursor="Hand" VerticalAlignment="Top" TextDecorations="Underline" MouseLeftButtonDown="LicenseClick"/>
+    </Grid>
+</Window>
